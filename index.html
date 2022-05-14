@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+
+  <audio id="clip1">
+  	<source src="./sounds/greenSound.wav"></source>
+  </audio>
+  <audio id="clip2">
+  	<source src="./sounds/redSound.wav"></source>
+  </audio>
+  <audio id="clip3">
+  	<source src="./sounds/yellowSound.wav"></source>
+  </audio>
+  <audio id="clip4">
+  	<source src="./sounds/blueSound.mp3"></source>
+  </audio>
+</head>
+
+<body>
+
+  <div id="outer-circle">
+    <div id="topleft"></div>
+    <div id="topright"></div>
+    <div id="bottomleft"></div>
+    <div id="bottomright"></div>
+    <div id="inner-circle">
+      <div id="title" class="font-effect-emboss">SIMON!</div>
+      <div id="switches">
+        <input type="checkbox" class="toggle" id="on">
+        <button class="button" id="start">Start</button>
+        <input type="checkbox" class="toggle" id="strict">
+      </div>
+      <div class="text1">
+        <span>POWER</span><span>STRICT</span>
+      </div>
+      <div id="turn"></div>
+      <div class="text2">
+        COUNT
+      </div>
+    </div>
+  </div>
+
+  <script  src="script.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirza simon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" >
+</head>
+<body>
+    <div class="menu-container"></div>
+		<h1 id="logo">MIRZA SIMON</h1>
+
+		<h2 class="round-js"></h2>
+		<button class="start-button">start</button>
+		<button class="reset">reset</button>
+		<span class="score-js"></span>
+		<div class="circle-container">
+			<div class="inner-simon">SIMON</div>
+			<div class="circle">
+				<div class="blue main-circle-js" data-color="blue"></div>
+				<div class="red main-circle-js" data-color="red"></div>
+				<div class="yellow main-circle-js" data-color="yellow"></div>
+				<div class="green main-circle-js" data-color="green"></div>
+			</div>
+		</div>
+		<footer class="foot">
+			<p id="message"></p>
+			<button class="next-round">Next Round >></button>
+		</footer>
+		<script src="scripts.js"></script>
+	</body>
+</body>
+</html> -->
